@@ -1,0 +1,99 @@
+
+*{
+    margin: 10 ;
+    padding: 0;
+    
+}
+body{
+    margin:0;
+    padding:0;
+}
+ .green-bar {
+    width: 100%;
+    margin:0;
+    padding:25px ;
+    background-color: #809064;
+    border-radius:0 0 200px  200px ;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: #97AE93;
+}
+ nav {
+     margin: 40px;
+     display:flex ;
+     justify-content: center;
+     gap: 20px;
+     color: black;
+     
+}
+
+nav a{
+    padding: 14px 28px;
+    margin:30px;
+    font-size: 20px;
+    background-color:#809064;
+    color:black;
+    text-align: center;
+    margin-top: 10px;  
+    border-radius: 10px; 
+    text-decoration: none;
+}
+ nav a:hover {
+    background-color: #e0f3bd;
+    color: #404c3e;
+
+}
+ 
+ header h1 {
+    font-family: "Italianno",cursive;
+    color:white;
+    text-align: center;
+    background-color: #809064;
+    margin:0; 
+}
+.shop-icon{
+    width:fit-content;
+    height: auto;
+    margin: 0 auto;
+    background-color:#809064;
+    justify-content: center;
+}
+.shop-icon svg{
+    display: block;
+    width: 180px;
+    height:180px ;
+    background-color: #809064;
+}
+.login{
+    display: flex; 
+    flex-direction: column;
+    align-items:center ;
+}
+.login input {
+    display: block;
+    padding: 10px 50px;
+    margin:20px;
+    font-size: 15px;
+    border-radius: 20px;
+
+}
+.welcome{
+    position: absolute;
+    top: 415px;
+    left: 52%;
+    width: 320px;
+    margin-top: 0;
+    font-family: "cookie",cursive;
+    display: block;
+    transform: translate(-50%);
+    
+    
+}
+
+
+
+
+
+
